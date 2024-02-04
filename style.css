@@ -1,0 +1,151 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    color:#777;
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #004580;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline-flex;
+}
+
+.nav a {
+    padding: .5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: black 4px 4px;
+}
+
+.nav a:hover {
+    background-color: rgb(57, 52, 90);
+}
+
+.main-nav {
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.main-header {
+    background-image: url('images/jojoheader.jpeg');
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Sedgwick Ave';
+    font-size: 60px;
+    font-family: "Sedwick Ave";
+    text-shadow: black 4px 4px;
+}
+
+.description-title {
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: black 4px 4px;
+}
+
+.main-description {
+    display: flex;
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    text-indent: 40px;
+}
+
+p {
+    margin: 0 0 0 10px;
+    padding: 0 1em;
+}
+
+img.discord-img {
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    margin: 1em;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.main-description2 {
+    display: flex;
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    text-indent:40px;
+}
+
+.main-footer {
+    background-color: #023463;;
+    color: white;
+    padding: .25em 0;
+}
+
+.bottom {
+    font-size: 25px;
+    text-shadow: black 4px 4px;
+}
+
+.footerimg {
+    height: auto;
+    width: 100px;
+    display: flex;
+    padding: 5px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.footerlinks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerlinks li {
+    display: inline-block;
+}
+
+.jojogif {
+    height: 250px;
+    width: 100%;
+    margin: 0px 10px 10px 0px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,127 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    color:#777;
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #004580;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline-flex;
+}
+
+.nav a {
+    padding: .5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: black 4px 4px;
+}
+
+.nav a:hover {
+    background-color: rgb(57, 52, 90);
+}
+
+.main-nav {
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.main-header {
+    background-image: url('../images/jojoheader.jpeg');
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.pandemic-title {
+    text-align: center;
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            rgb(255, 21, 0),
+            green,
+            yellow,
+            orange,
+            red);
+            background-clip:inherit;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    text-shadow: black 4px 4px;
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+    margin: 0 0 0 10px;
+    padding: 0 1em;
+    font-size: 25px;
+}
+
+.videos {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row {
+    flex:1;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main-footer {
+    background-color: #023463;;
+    color: white;
+    padding: .25em 0;
+}
+
+.bottom {
+    font-size: 25px;
+    text-shadow: black 4px 4px;
+}
+
+.footerimg {
+    height: auto;
+    width: 100px;
+    display: flex;
+    padding: 5px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.footerlinks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerlinks li {
+    display: inline-block;
+}
