@@ -144,11 +144,12 @@ img.discord-img {
 }
 
 .jojogif {
-    height: 250px;
-    max-height: 250px;
+    height: 300px;
+    max-height: 300px;
     width: 100%;
-    max-width: 250px;
-    margin: 0px 10px 10px 0px;
+    max-width: 300px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
     flex-shrink: 0;
+    float: right;
+    margin: 30px;
 }
